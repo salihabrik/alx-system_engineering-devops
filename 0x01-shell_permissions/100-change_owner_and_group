@@ -1,0 +1,2 @@
+#!/bib/bash
+chown vincent:staff *
