@@ -16,4 +16,4 @@ do
 
     printf "\n"
 
-done < "$fnae"
+done < "$fname"
