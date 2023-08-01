@@ -6,7 +6,7 @@ A regular expression, commonly called a “regexp”, is a sequence of character
 Some people, when confronted with a problem, think “I know, I’ll use regular expressions.”   Now they have two problems. (super classic joke in the industry)
 
 One thing you have to be careful with is that different languages use different regexp engines. That means that a regexp in Python, for example, will be interpreted differently in Javascript:
-
+![logo](https://intranet.alxswe.com/images/contents/sysadmin/projects/78/shouting.jpg)
 Regular expressions are everywhere and software engineers, no matter their positions, will have to use them during their careers. System administrators and DevOps are the ones using them the most because they are very handy for log parsing.
 
 Read about regexp:
