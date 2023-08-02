@@ -32,7 +32,7 @@ Randomly
 
 #  Types of network
 
-![logo](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/4b995d4f8078b44afa968d68a98035d2bd7e8fac.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230802%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230802T214813Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=49757394fa0bb28d80bd57c2e8861e55cf2d9d8c170e799b3d3ae96e8251daf9)
+<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/4b995d4f8078b44afa968d68a98035d2bd7e8fac.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230802%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230802T214813Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=49757394fa0bb28d80bd57c2e8861e55cf2d9d8c170e799b3d3ae96e8251daf9)">
 
 LAN connect local devices together, WAN connects LANs together, and WANs are operating over the Internet.
 
@@ -57,8 +57,7 @@ LAN
 #  MAC and IP address
 
 ![logo](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/1e348ba3bcbb094b02922f821ffeb3d8c5438b7b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230802%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230802T214813Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=e9ddb6c40e3c3fbd8eab512312924c2b12ec8266287f232f70d401cdfd5554de)
-
-Questions:
+data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4
 
 What is a MAC address?
 
