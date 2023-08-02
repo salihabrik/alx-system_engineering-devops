@@ -32,7 +32,7 @@ Randomly
 
 #  Types of network
 
-<img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/4b995d4f8078b44afa968d68a98035d2bd7e8fac.jpg)
+![logo](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/9/4b995d4f8078b44afa968d68a98035d2bd7e8fac.jpg)
 
 LAN connect local devices together, WAN connects LANs together, and WANs are operating over the Internet.
 
