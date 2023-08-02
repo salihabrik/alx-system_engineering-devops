@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script display listening ports
+# Shows the PID and nam of the program to which ecah socket belongs
+# Shows listening sockets
+
+sudo netstat -lp
