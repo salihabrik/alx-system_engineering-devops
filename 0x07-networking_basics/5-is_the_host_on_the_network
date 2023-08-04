@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script pings an IP address passed as an arg.
+# This script pings an IP address passed as an argument.
 # Accepts a string as an argument and pings the IP 5 times
 # Displays Usage: 5-is_the_host_on_the_network {IP_ADDRESS} if no argument passed
 
