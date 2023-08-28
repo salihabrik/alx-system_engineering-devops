@@ -21,6 +21,8 @@ Application layer. The application layer, which is the top layer of the network,
 ![logo](https://cdn.ttgtmedia.com/rms/onlineImages/networking-osi_layer.png)
 
 
+
+
 Monitoring
 Just as the heart monitor in a hospital that is making sure that a patient’s heart is beating and at the right beat, software monitoring will watch computer metrics, record them, and emit an alert if something is unusual or that could make the computer not work properly happens.
 
@@ -49,3 +51,13 @@ Wavefront is a cutting edge monitoring service funded by great software engineer
 
 
 ![logo](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/LAMP_software_bundle.svg/420px-LAMP_software_bundle.svg.png)
+
+![Alt text](image.png)
+
+![Alt text](image-1.png)
+
+![Alt text](image-2.png)
+
+![Alt text](image-3.png)
+
+![Alt text](image-4.png)
