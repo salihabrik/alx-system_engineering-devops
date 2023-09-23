@@ -1,7 +1,6 @@
 # SSH Essentials: Working with SSH Servers, Clients, and Keys
 
-
-![logo](https://community-cdn-digitalocean-com.global.ssl.fastly.net/bHcBwKwM3vP5eL7LyxKhDLm8)
+![Alt text](image.png)
 
 Introduction
 SSH is a secure protocol used as the primary means of connecting to Linux servers remotely. It provides a text-based interface by spawning a remote shell. After connecting, all commands you type in your local terminal are sent to the remote server and executed there.
