@@ -2,4 +2,4 @@
 # This script connects to the server using SSH and a private key
 
 # Specify the correct path to the private key
-ssh -i ~/.ssh/school ubuntu@54.174.184.64
+ssh -i ~/.ssh/school ubuntu@34.207.155.239
