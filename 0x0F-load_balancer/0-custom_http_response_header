@@ -1,11 +1,21 @@
 #!/usr/bin/env bash
 # Configure web server with custom Nginx response header
+
 # Update and upgrade the package list
 sudo apt-get update -y
 sudo apt-get upgrade -y
+
+# Install Nginx
 sudo apt-get install nginx -y
 
+# Get the hostname of the server
 hostname=$(hostname)
+
+# Configure Nginx to add the custom header
 echo "add_header X-Served-By \$hostname;" | sudo tee /etc/nginx/conf.d/custom-header.conf
+
+# Test the Nginx configuration
 sudo nginx -t
+
+# Reload Nginx to apply the changes
 sudo systemctl reload nginx
