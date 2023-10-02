@@ -1,1 +1,22 @@
 
+#!/usr/bin/env bash
+# Configure Nginx custom 404 page
+
+echo "Ceci n'est pas une page" | tee /var/www/html/custom_404.html
+
+# Configure Nginx to use the custom 404 page
+echo "server {
+    listen 80 default_server;
+    server_name _;
+    error_page 404 /custom_404.html;
+    location = /custom_404.html {
+        root /var/www/html;
+        internal;
+    }
+}" | tee /etc/nginx/sites-available/custom_404
+
+ln -s /etc/nginx/sites-available/custom_404 /etc/nginx/sites-enabled/
+
+rm -f /etc/nginx/sites-enabled/default
+
+service nginx reload
