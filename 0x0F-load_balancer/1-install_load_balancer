@@ -31,8 +31,8 @@ frontend http_front
 
 backend http_back
     balance roundrobin
-    server web-01 [STUDENT_ID]-web-01:80 check
-    server web-02 [STUDENT_ID]-web-02:80 check
+    server web-01 [STUDENT_ID]-web-0134.207.155.239:80 check
+    server web-02 [STUDENT_ID]-web-0254.174.246.127:80 check
 EOL
 
 sudo systemctl enable haproxy
