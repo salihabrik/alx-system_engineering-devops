@@ -1,19 +1,2 @@
-Hit:1 https://download.docker.com/linux/ubuntu jammy InRelease
-Hit:2 http://archive.ubuntu.com/ubuntu jammy InRelease
-Hit:3 http://archive.ubuntu.com/ubuntu jammy-updates InRelease
-Hit:4 http://archive.ubuntu.com/ubuntu jammy-backports InRelease
-Hit:5 https://deb.nodesource.com/node_14.x jammy InRelease
-Hit:6 http://security.ubuntu.com/ubuntu jammy-security InRelease
-Reading package lists...
-W: https://download.docker.com/linux/ubuntu/dists/jammy/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
-Reading package lists...
-Building dependency tree...
-Reading state information...
-nginx is already the newest version (1.18.0-6ubuntu14.4).
-The following packages were automatically installed and are no longer required:
-  bridge-utils dns-root-data dnsmasq-base ubuntu-fan
-Use 'apt autoremove' to remove them.
-0 upgraded, 0 newly installed, 0 to remove and 22 not upgraded.
-ERROR: Couldn't determine iptables version
- * Starting nginx nginx
-   ...done.
+ * Restarting nginx nginx
+   ...fail!
