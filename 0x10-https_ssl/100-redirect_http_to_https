@@ -1,0 +1,35 @@
+global
+    log /dev/log local0
+    log /dev/log local1 notice
+    maxconn 2000
+    user haproxy
+    group haproxy
+    daemon
+
+defaults
+    log     global
+    mode    http
+    option  httplog
+    option  dontlognull
+    retries 3
+    timeout connect 5000
+    timeout client  50000
+    timeout server  50000
+
+frontend http-in
+    bind *:80
+    mode http
+    redirect scheme https code 301 if !{ ssl_fc }
+
+frontend salihabrik
+    bind *:443 ssl crt /etc/letsencrypt/live/salihabrik.tech/fullchain.pem
+    mode http
+    option forwardfor
+    reqadd X-Forwarded-Proto:\ https
+    default_backend web-servers
+
+backend web-servers
+    mode http
+    balance roundrobin
+    server web1 34.207.155.239:80 check
+    server web2 54.174.246.127:80 check
