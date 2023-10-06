@@ -1,4 +1,5 @@
-global
+
+ global
     log /dev/log local0
     log /dev/log local1 notice
     maxconn 2000
@@ -7,34 +8,28 @@ global
     daemon
 
 defaults
-    log     global
-    mode    http
-    option  httplog
-    option  dontlognull
+    log global
+    mode http
+    option httplog
+    option dontlognull
     retries 3
     timeout connect 5000
     timeout client  50000
     timeout server  50000
-listen salihabrik
-        bind :80
-        mode http
-        balance roundrobin
-        394799-web-01 34.207.155.239-web-01:80 check
-        394799-web-02 54.174.246.127-web-02:80 check
+
 frontend http_front
     bind *:80
     mode http
-    http-request add-header X-Served-BY http
-        default_backend web-servers
+    http-request add-header X-Served-BY\:\ http
+    default_backend web-servers
+
 frontend www-https
-    bind *:443 ssl crt /etc/haproxy/certs/www.salihabrik.tech.pem
-    http-request add-header X-Served-BY https
-        default_backend web-servers
+    bind *:443 ssl crt /etc/ssl/certs/www.salihabrik.tech.pem
+    http-request add-header X-Served-BY\:\ https
     default_backend http_back
 
 backend http_back
     balance roundrobin
-    394799-web-01 34.207.155.239-web-01:80 check
-    394799-web-02 54.174.246.127-web-02:80 check
-
-                                                                                                                                            1,1           Top
+    server 394799-web-01 34.207.155.239:80 check
+    server 394799-web-02 54.174.246.127:80 check
+                                                                                                                                           1,1           Top
