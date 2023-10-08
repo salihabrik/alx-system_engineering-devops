@@ -21,15 +21,13 @@ frontend http_frontend
     bind *:80
     mode http
     option forwardfor
-    reqadd X-Forwarded-Proto:\ http
+    http-request add-header X-Forwarded-Proto http
     redirect scheme https code 301 if !{ ssl_fc }
 
 frontend https_frontend
     bind *:443 ssl crt /etc/letsencrypt/live/www.salihabrik.tech/fullchain.pem
-    reqadd X-Forwarded-Proto:\ https
+    http-request add-header X-Forwarded-Proto https
     default_backend www_backend
 
 backend www_backend
     server web_server 127.0.0.1:80
-
-                                        
