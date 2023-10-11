@@ -1,9 +1,9 @@
 # 0x11 - Exploring the Web Stack
+
 ![alt text](http://i.imgur.com/i9ivkdo.png)
 
 ![alt text](http://i.imgur.com/R8R3sqC.pngalt )
 
-![Image](https://example.com/your_project_image.jpg)
 
 ## Description
 
