@@ -2,7 +2,7 @@
 
 ![alt text](http://i.imgur.com/i9ivkdo.png)
 
-![alt text](http://i.imgur.com/R8R3sqC.pngalt )
+![alt text](http://i.imgur.com/R8R3sqC.png)
 
 
 ## Description
