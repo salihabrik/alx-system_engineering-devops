@@ -47,7 +47,7 @@ For detailed instructions, refer to the task file: [100-port_forwarding](./0x13-
 
 ## Repository
 
-- GitHub Repository: [alx-system_engineering-devops](https://github.com/yourusername/alx-system_engineering-devops)
-- Directory: [0x13-firewall](https://github.com/yourusername/alx-system_engineering-devops/tree/master/0x13-firewall)
+- GitHub Repository: [alx-system_engineering-devops](https://github.com/salihabrik/alx-system_engineering-devops)
+- Directory: [0x13-firewall](https://github.com/salihabrik/alx-system_engineering-devops/tree/master/0x13-firewall)
 
 Feel free to customize this README with specific project details and additional information as needed. Good luck with your firewall configuration project!
