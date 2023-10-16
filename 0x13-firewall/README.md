@@ -6,34 +6,48 @@
 
 This project focuses on configuring and managing a firewall to enhance network security and control incoming and outgoing network traffic. We will use the Uncomplicated Firewall (UFW) tool to create and apply firewall rules to our server.
 
+#
+
 ## Table of Contents
 
-- [Project Overview](#project-overview)
-- [Tasks](#tasks)
-- [Requirements](#requirements)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Project Description](#project-description)
+- [Task 0: Block all incoming traffic](#task-0-block-all-incoming-traffic)
+- [Task 1: Port Forwarding](#task-1-port-forwarding)
+- [Repository](#repository)
 
-## Tasks
+## Project Description
 
-The project consists of the following tasks:
+This project involves configuring a firewall using Uncomplicated Firewall (UFW) on the web server (web-01). The primary objectives are:
 
-1. **Block All Incoming Traffic Except Essential Ports**
-   - In this task, we will configure the UFW firewall to block all incoming traffic while allowing specific TCP ports (22 for SSH, 443 for HTTPS SSL, and 80 for HTTP).
-   - File: [0-block_all_incoming_traffic_but](./0x13-firewall/0-block_all_incoming_traffic_but)
+- Block all incoming traffic except for specific TCP ports: 22 (SSH), 443 (HTTPS SSL), and 80 (HTTP).
+- Implement port forwarding to redirect incoming traffic from port 8080/TCP to port 80/TCP.
 
-2. **Port Forwarding (Advanced)**
-   - This task involves implementing port forwarding to redirect incoming traffic on port 8080/TCP to port 80/TCP on the server.
-   - File: [100-port_forwarding](./0x13-firewall/100-port_forwarding)
+These tasks aim to enhance the security and control of network traffic on the web server.
 
-## Requirements
+## Task 0: Block all incoming traffic
 
-Before starting the project, make sure you have the following:
+**Requirements:**
+- Configure UFW on web-01 to block all incoming traffic, except for the following TCP ports:
+  - 22 (SSH)
+  - 443 (HTTPS SSL)
+  - 80 (HTTP)
 
-- Access to the target server(s) (e.g., web-01) for firewall configuration.
-- Familiarity with the UFW (Uncomplicated Firewall) utility.
-- Proper SSH access to your server to execute commands.
-- Necessary permissions to modify firewall settings.
+You should share the UFW commands used in your answer file.
 
+For detailed instructions, refer to the task file: [0-block_all_incoming_traffic_but](./0x13-firewall/0-block_all_incoming_traffic_but)
+
+## Task 1: Port Forwarding (Advanced)
+
+**Requirements:**
+- Configure web-01's firewall to redirect incoming traffic from port 8080/TCP to port 80/TCP.
+
+Your answer file should be a copy of the UFW configuration file that you modified to make this happen.
+
+For detailed instructions, refer to the task file: [100-port_forwarding](./0x13-firewall/100-port_forwarding)
+
+## Repository
+
+- GitHub Repository: [alx-system_engineering-devops](https://github.com/yourusername/alx-system_engineering-devops)
+- Directory: [0x13-firewall](https://github.com/yourusername/alx-system_engineering-devops/tree/master/0x13-firewall)
+
+Feel free to customize this README with specific project details and additional information as needed. Good luck with your firewall configuration project!
