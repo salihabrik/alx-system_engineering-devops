@@ -1,6 +1,6 @@
 # Firewall Configuration Project
 
-![Firewall Image](firewall-image.jpg)
+![Alt text](https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Screenshots_2018/Firewall-EN.png)
 
 ## Project Overview
 
