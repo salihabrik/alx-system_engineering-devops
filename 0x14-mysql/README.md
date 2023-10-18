@@ -47,7 +47,7 @@ These databases are often used to analyze interconnections. Graph databases are 
 
 Graph databases use SPARQL, a declarative programming language and protocol, for analytics. SPARQL can perform all the analytics that SQL can perform, and can also be used for semantic analysis, or the examination of relationships. This makes it useful for performing analytics on data sets that have both structured and unstructured data. SPARQL lets users perform analytics on information stored in a relational database, as well as friend-of-a-friend relationships, PageRank and shortest path.
 
-[text alt](https://cdn.ttgtmedia.com/rms/onlineimages/datamanagement-graph_database_vs_relational_database-f_mobile.png)
+![text alt](https://cdn.ttgtmedia.com/rms/onlineimages/datamanagement-graph_database_vs_relational_database-f_mobile.png)
 
 ## What are the components of a database?
 While the different types of databases vary in schema, data structure and data types most suited to them, they are all comprised of the same five basic components.
@@ -65,7 +65,7 @@ Data integrity ensures data is trustworthy. It is not always easy to achieve dat
 Database performance requires regular database updates and maintenance. Without the proper support, database functionality can decline as the technology supporting the database changes or as the data it contains changes.
 Database integration can also be difficult. It can involve integrating data sources from varying types of databases and structures into a single database or into data lakes and data warehouses.
 
-[alt text](https://cdn.ttgtmedia.com/rms/onlineimages/sqlserver-dbms_components-h_half_column_mobile.png)
+![alt text](https://cdn.ttgtmedia.com/rms/onlineimages/sqlserver-dbms_components-h_half_column_mobile.png)
 
 
 ## How To Set Up Replication in MySQL
