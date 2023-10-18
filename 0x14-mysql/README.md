@@ -17,7 +17,7 @@ Databases were first created in the 1960s. These early databases were network mo
 
 Relational databases were developed in the 1970s. Object-oriented databases came next in the 1980s. Today, we use Structured Query Language (SQL), NoSQL and cloud databases.
 
-[text alt](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/280/KkrkDHT.png)
+[text Alt](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/280/KkrkDHT.png)
 
 ## Types of databases
 There are many types of databases. They may be classified according to content type: bibliographic, full text, numeric and images. In computing, databases are often classified based on the organizational approach they use.
