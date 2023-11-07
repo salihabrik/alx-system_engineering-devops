@@ -1,7 +1,11 @@
 # Reddit API Project
 
 This project is a part of the ALX System Engineering & DevOps program, focusing on advanced API usage and Python scripting. The goal of this project is to interact with the Reddit API to perform various tasks related to subreddits.
+
+
 ![alt text](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/314/WIxXad8.png)
+
+
 ## Table of Contents
 1. [Project Description](#project-description)
 2. [Tasks](#tasks)
