@@ -38,9 +38,9 @@ This project focuses on implementing web stack monitoring using Datadog. It incl
 
 ![Alt text](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/314/WIxXad8.png)
  
-![Alt text](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/314/82VsYEC.png)
+![alt text](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/314/82VsYEC.png)
 
-![Alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/6/6a4551974aadc181e97a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20231109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231109T105218Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=67f2a40f0298eab84ac3ff45ac20d0c9850ec31d64f784266162b427607bc1bf)
+![alt text](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2019/6/6a4551974aadc181e97a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20231109%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231109T105218Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=67f2a40f0298eab84ac3ff45ac20d0c9850ec31d64f784266162b427607bc1bf)
 ### Task 1: Monitor some metrics
 1. Set up a monitor to check the number of read requests issued to the device per second.
 2. Set up a monitor to check the number of write requests issued to the device per second.
