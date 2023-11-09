@@ -2,6 +2,7 @@
 
 This project focuses on implementing web stack monitoring using Datadog. It includes tasks related to signing up for Datadog, installing the Datadog agent, setting up monitors, and creating a dashboard.
 
+![Alt text](image-4.png)
 
 ## Tasks
 
