@@ -44,3 +44,5 @@ Transport layer. This layer ensures that segments are transmitted correctly via 
 Internet layer. Also known as the network layer, the internet layer receives and sends packets for the network. This layer comprises IP, Address Resolution Protocol (ARP) and Internet Control Message Protocol (ICMP).
 Network access layer. The network access layer of TCP/IP combines the physical and data-link layers of the OSI model. It deals with Layer 1 concerns, such as energy, bits and the media used to transport them, such as copper, fiber and wireless. Additionally, it deals with Layer 2 difficulties, including bit conversion into protocol units, such as Ethernet packets, media access control (MAC) addresses and NICs.
 ![Alt text](image.png)
+
+
